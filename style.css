@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    overflow: hidden;
+}
+
+.row.fila1 {
+    background: rgb(163, 53, 53);
+    width: 100%;
+    height: 10vh;
+}
+.row.fila2 {
+    background: rgb(151, 105, 105);
+    width: 100%;
+    height: 10vh;
+}
+.row.fila3 {
+    background: rgb(58, 49, 49);
+    width: 100%;
+    height: 20vh;
+}
+.row.fila4 {
+    background: rgb(58, 11, 11);
+    width: 100%;
+    height: 40vh;
+}
+.row.fila5 {
+    background: rgb(12, 1, 1);
+    width: 100%;
+    height: 10vh;
+}
+.row.fila6 {
+    background: rgb(250, 18, 18);
+    width: 100%;
+    height: 10vh;
+}
