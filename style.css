@@ -14,63 +14,11 @@ body {
     width: 100%;
     height: 10vh;
 }
+
 .fila2 {
     background: rgb(151, 105, 105);
     width: 100%;
     height: 10vh;
-}
-
-.encabezado {
-    padding-left: 15px;
-}
-.row.fila3 {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 1.5rem;
-    background: rgb(58, 49, 49);
-    width: 100%;
-    height: 20vh;
-}
-
-.menu-card {
-    width: 100%;
-    height: auto;
-    background: #FFFEFF;
-    border-radius: 11px;
-    padding: 2rem;
-    margin: 1rem;
-}
-
-.card-image img {
-    width:100%;
-    height: 100%;
-    overflow: hidden;
-    object-fit: contain;
-}
-
-.card-image {
-    width:100%;
-    height: 100%;
-    position: relative;
-}
-
-.row.fila4 {
-    background: rgb(58, 11, 11);
-    width: 100%;
-    height: 45vh;
-}
-.row.fila5 {
-    background: rgb(12, 1, 1);
-    width: 100%;
-    height: 10vh;
-}
-.row.fila6 {
-    background: rgb(250, 18, 18);
-    width: 100%;
-    height: 5vh;
-}
-.navbar {
-    padding: 0rem 1rem !important;
 }
 
 h1 {
@@ -85,28 +33,94 @@ h1 {
 }
 
 p {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    color: #B4B4B4;
+}
 
-font-family: "Raleway";
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 15px;
-display: flex;
-align-items: center;
-letter-spacing: 0.07em;
-color: #B4B4B4;
+.encabezado {
+    padding-left: 15px;
+}
 
+.fila3 {
+    background: rgb(58, 49, 49);
+    display: inline-block;
+    overflow-x: auto;
+    overflow-y: none;
+    white-space: nowrap;
+    scrollbar-width: none;
+    width: 100%;
+    height: 20vh;
+    padding-left: 1rem;
+    
+}
+
+.fila3::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-card {
+    display: inline-flex;
+    flex-direction: column;
+    background:#ffff;
+    width:13vh;
+    height: 16vh; 
+    margin: 1.4rem 0.8rem;
+    border-radius: 40px;
+    
+
+}
+
+.menu-card img {
+    margin: auto;
+    max-width: 80px;
+    padding-bottom: 1.5rem ;
+    
+}
+
+.menu-card p{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.fila4 {
+    background: rgb(58, 11, 11);
+    width: 100%;
+    height: 45vh;
+}
+
+.fila5 {
+    background: rgb(12, 1, 1);
+    width: 100%;
+    height: 10vh;
+}
+
+.fila6 {
+    background: rgb(250, 18, 18);
+    width: 100%;
+    height: 5vh;
+}
+
+.navbar {
+    padding: 0rem 1rem !important;
 }
 
 .navbar-brand {
 
-font-family: "Raleway";
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: -0.02em;
-
-color: #161616;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #161616;
 }
 
