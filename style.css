@@ -31,7 +31,9 @@ h1 {
     padding-bottom: 2vh;
     margin-bottom: 0px !important;
 }
-
+.Bigcontainer {
+    width: 100%;
+}
 p {
     font-family: "Raleway";
     font-style: normal;
@@ -126,3 +128,23 @@ p {
     color: #161616;
 }
 
+.elemento{
+    width: 100%;
+    background:yellow ;
+    height:auto;
+    display:grid;
+    grid-template-columns: 4fr 1fr 1fr;
+    
+}
+.imagen {
+    width: 100%;
+}
+
+.imagen img{
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.principal {
+    padding: 1rem;
+}
