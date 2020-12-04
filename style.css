@@ -76,7 +76,7 @@ p {
     width:13vh;
     height: 16vh; 
     margin: 1.0rem 0.8rem;
-    border-radius: 40px;
+    border-radius: 20px;
     
 
 }
@@ -131,18 +131,20 @@ p {
 .elemento{
     width: 100%;
     background:yellow ;
-    height:auto;
-    display:grid;
-    grid-template-columns: 4fr 1fr 1fr;
+    display:flex;
     
 }
 .imagen {
-    width: 100%;
+    width: 18%;
+    
+
 }
 
 .imagen img{
-    object-fit: cover;
-    max-width: 100%;
+    max-width: 90%;
+    border-radius: 15px;
+
+    
 }
 
 .principal {
