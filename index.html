@@ -11,20 +11,18 @@
 </head>
 
 <body>
-    <div class="Bigcontainer">
-        <div class="fila1">
-            <nav class="d-flex justify-content-center navbar-expand-lg navbar-light bg-white fila1">
+    <header>
+        <nav class="fila1">
                 <a class="navbar-brand" href="#">Food House</a>
-            </nav>
-        </div>
-    </div>
+        </nav>
+    
     <div class="fila2">
         <div class="encabezado">
             <h1>Food For Home</h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, tenetur</p>
         </div>
-
     </div>
+</header>
     <div class="contenedor">
         <div class="fila3">
             <div class="menu-card">
@@ -56,18 +54,16 @@
     <div class="fila4">
         <div class="principal">
             <div class="elemento">
-                <div class="imagen">
                     <img src="https://www.clara.es/medio/2019/05/22/comidas-rapidas-macarrones-tomate-queso_32d22b0f_1000x1501.jpg" alt="">
-                </div>
                 <div class="texto">
                     <p>$52.00</p>
                     <h5>Chiken Veggi Salad</h5>
                     <h6>With cheese sauce</h6>
                 </div>
                 <div class="contador">
-                    <button id="restar" class="resta">-</button>
-                    <input type="number" placeholder="00">
-                    <button id="sumar" class="suma">+</button>
+                    <button class="resta" onclick="resta()">-</button>
+                    <input type="number" id="numero" value="00">
+                    <button class="suma" onclick="suma()">+</button>
                 </div>
             </div>
             <div class="elemento">
@@ -80,9 +76,9 @@
                     <h6>With cheese sauce</h6>
                 </div>
                 <div class="contador">
-                    <button id="restar" class="resta">-</button>
-                    <input type="number" placeholder="00">
-                    <button id="sumar" class="suma">+</button>
+                        <button class="resta" onclick="resta()">-</button>
+                        <input type="number" id="numero" value="00">
+                        <button class="suma" onclick="suma()">+</button>
                 </div>
             </div>
             <div class="elemento">
@@ -95,9 +91,9 @@
                     <h6>With cheese sauce</h6>
                 </div>
                 <div class="contador">
-                    <button id="restar" class="resta">-</button>
-                    <input type="number" placeholder="00">
-                    <button id="sumar" class="suma">+</button>
+                        <button class="resta" onclick="resta()">-</button>
+                        <input type="number" id="numero" value="00">
+                        <button class="suma" onclick="suma()">+</button>
                 </div>
             </div>
             <div class="elemento">
@@ -110,9 +106,9 @@
                     <h6>With cheese sauce</h6>
                 </div>
                 <div class="contador">
-                    <button id="restar" class="resta">-</button>
-                    <input type="number" placeholder="00">
-                    <button id="sumar" class="suma">+</button>
+                        <button class="resta" onclick="resta()">-</button>
+                        <input type="number" id="numero" value="00">
+                        <button class="suma" onclick="suma()">+</button>
                 </div>
             </div>
             <div class="elemento">
@@ -125,9 +121,9 @@
                     <h6>With cheese sauce</h6>
                 </div>
                 <div class="contador">
-                    <button id="restar" class="resta">-</button>
-                    <input type="number" placeholder="00">
-                    <button id="sumar" class="suma">+</button>
+                        <button class="resta" onclick="resta()">-</button>
+                        <input type="number" id="numero" value="00">
+                        <button class="suma" onclick="suma()">+</button>
                 </div>
             </div>
             <div class="elemento">
@@ -140,14 +136,14 @@
                     <h6>With cheese sauce</h6>
                 </div>
                 <div class="contador">
-                    <button id="restar" class="resta">-</button>
-                    <input type="number" placeholder="00">
-                    <button id="sumar" class="suma">+</button>
+                        <button class="resta" onclick="resta()">-</button>
+                        <input type="number" id="numero" value="00">
+                        <button class="suma" onclick="suma()">+</button>
                 </div>
             </div>
         </div>
     </div>
-
+<script src="contador.js"></script>
     <footer>
         <button class="iconos">
             <img src="img/home.svg" class="iconotamaño"></img>
