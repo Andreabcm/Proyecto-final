@@ -10,6 +10,9 @@ body {
 
 .fila1 {
     width: 100%;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
 }
 
 .fila2 {
@@ -19,14 +22,14 @@ body {
 
 h1 {
     font-family: "Raleway";
-    font-style: normal !important;
-    font-weight: bold !important;
-    font-size: 38px !important;
-    line-height: 33px !important;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 33px;
     letter-spacing: -0.02em;
     color: #303030;
     padding-bottom: 2vh;
-    margin-bottom: 0px !important;
+    margin-bottom: 0px;
 }
 
 .Bigcontainer {
@@ -107,27 +110,16 @@ p {
     width: 100%;
     display: flex;
     background: #FFFFFF;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin-bottom: 1rem;
 }
 
-.imagen {
-    width: 18vh;
-    height: 20vh;
-    overflow: hidden;
-    position: relative;
-    border-radius: 3vh;
-}
-
-.imagen img {
-    position: absolute;
-    left: -108%;
-    right: -100%;
-    top: -100%;
-    bottom: -100%;
-    margin: auto;
-    width: 223px;
+.elemento img {
+    width: 137px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 31px;
 }
 
 .principal {
@@ -137,7 +129,7 @@ p {
 .contador {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .contador button {
@@ -146,34 +138,47 @@ p {
 }
 
 .suma {
-    background: #FFFFFF;
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+    background: #ededef;
 }
 
 .resta {
-    background: #FFFFFF;
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+    border: none;
+    background: #ededef;
 }
 
 .contador input {
     width: 40px;
+    height: 30px;
+    text-align: center;
+    font-size: 1px;
+    font-size: 22px;
+    border: none;
 }
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
 
 .texto p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
-    font-size: 3vw;
-    line-height: 4vh;
-    color: #FF9C07;
+    font-size: 25px;
+    line-height: 20px;
+    color: gold;
 }
 
 .texto h5 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
-    font-size: 3vw;
-    line-height: 1.5vh;
+    font-size: 22px;
+    line-height: 36px;
     color: #000000;
 }
 
@@ -181,9 +186,8 @@ p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: normal;
-    font-size: 3vw;
-    padding-top: 0.5vh;
-    line-height: 6vh;
+    font-size: 20px;
+    line-height: 30px;
     color: rgba(0, 0, 0, 0.43);
 }
 
@@ -200,7 +204,7 @@ p {
 }
 
 .navbar {
-    padding: 0rem 0rem !important;
+    padding: 0rem 0rem;
 }
 
 .navbar-brand {
@@ -211,6 +215,7 @@ p {
     line-height: 16px;
     letter-spacing: -0.02em;
     color: #161616;
+    text-decoration: none;
 }
 
 footer {
