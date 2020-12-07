@@ -4,16 +4,13 @@
     box-sizing: border-box;
 }
 
-
 body {
     overflow: hidden;
 }
 
 .fila1 {
     width: 100%;
-    
 }
-
 
 .fila2 {
     background: #ffffff;
@@ -31,9 +28,11 @@ h1 {
     padding-bottom: 2vh;
     margin-bottom: 0px !important;
 }
+
 .Bigcontainer {
     width: 100%;
 }
+
 p {
     font-family: "Raleway";
     font-style: normal;
@@ -60,21 +59,22 @@ p {
     width: 100%;
     height: 20vh;
     padding-left: 1rem;
-    
 }
 
 .fila3::-webkit-scrollbar {
     display: none;
 }
+
 .contenedor {
     display: flex;
 }
+
 .menu-card {
     display: inline-flex;
     flex-direction: column;
-    background:#ffff;
-    width:13vh;
-    height: 16vh; 
+    background: #ffff;
+    width: 13vh;
+    height: 16vh;
     margin: 1.0rem 0.8rem;
     border-radius: 20px;
 }
@@ -83,28 +83,29 @@ p {
     margin: auto;
     max-width: 8vh;
     padding-bottom: 1.5vh;
-    
 }
 
-.menu-card p{
+.menu-card p {
     display: flex;
     justify-content: center;
 }
 
 .fila4 {
-    background: #FFFFFF;
+    background: #FAFAFA;
     width: 100%;
-    height: 45vh;
+    height: 50vh;
     overflow-x: auto;
 }
+
 .texto {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.elemento{
+
+.elemento {
     width: 100%;
-    display:flex;
+    display: flex;
     background: #FFFFFF;
     justify-content: space-between;
     align-items: center;
@@ -112,14 +113,14 @@ p {
 }
 
 .imagen {
-    width: 150px;
-    height: 150px;
+    width: 18vh;
+    height: 20vh;
     overflow: hidden;
     position: relative;
-    border-radius: 32px;
+    border-radius: 3vh;
 }
 
-.imagen img{
+.imagen img {
     position: absolute;
     left: -108%;
     right: -100%;
@@ -132,49 +133,57 @@ p {
 .principal {
     padding: 1rem;
 }
+
 .contador {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
+
 .contador button {
     width: 40px;
     height: 30px;
-
 }
+
 .suma {
     background: #FFFFFF;
     border-radius: 0px 10px 10px 0px;
 }
+
 .resta {
     background: #FFFFFF;
     border-radius: 10px 0px 0px 10px;
 }
+
 .contador input {
     width: 40px;
 }
+
 .texto p {
     font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
-    font-size: 1.2rem;
-    line-height: 14px;
+    font-size: 3vw;
+    line-height: 4vh;
     color: #FF9C07;
 }
+
 .texto h5 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
-    font-size: 1.4rem;
-    line-height: 14px;
+    font-size: 3vw;
+    line-height: 1.5vh;
     color: #000000;
 }
+
 .texto h6 {
     font-family: "Raleway";
     font-style: normal;
     font-weight: normal;
-    font-size: 1.4rem;
-    padding-top: 1rem;
-    line-height: 11px;
+    font-size: 3vw;
+    padding-top: 0.5vh;
+    line-height: 6vh;
     color: rgba(0, 0, 0, 0.43);
 }
 
@@ -195,7 +204,6 @@ p {
 }
 
 .navbar-brand {
-
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
@@ -203,4 +211,61 @@ p {
     line-height: 16px;
     letter-spacing: -0.02em;
     color: #161616;
+}
+
+footer {
+    height: 15vh;
+    width: 100%;
+    background: #FAFAFA;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    filter: drop-shadow(0px -5px 10px #B4B4B4);
+}
+
+.boton {
+    background: #FF6900;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50px;
+    top: -2vh;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(0px 1px 3px hsl(0, 0%, 35%));
+    border-width: 0px;
+    border-style: outset;
+    border-image: initial;
+}
+
+.imgboton {
+    width: 1vh;
+    top: 5vh;
+    position: absolute;
+    display: flex;
+}
+
+.iconos {
+    border-width: 0px;
+    border-style: outset;
+    border-image: initial;
+    background-color: white;
+    cursor: alias;
+}
+
+.iconotamaño {
+    height: 5vh;
+    width: 4.5vh;
+    position: relative;
+}
+
+.iconocentro {
+    position: relative;
+    width: 5vh;
+    height: 4vh;
+    right: 2vh;
+    bottom: 3.5vh;
+    mix-blend-mode: screen;
 }
