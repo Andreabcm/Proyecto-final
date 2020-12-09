@@ -7,18 +7,14 @@
     <title>Menú Restaurante 2</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
 </head>
 
 <body>
     <header>
         <div class="fila1">
-            <div class="icono">
-               <img src="img/flechita.png" alt="">
-            </div>
-            <div class="icono">
-                <img src="img/papelera.png" alt="">
-            </div>
+               <button class="return"><img src="img/flechita.png" alt="return"></button>
+               <button class="delete"><img src="img/papelera.png" alt="delete"></button>
         </div>
 
         <div class="fila2">
@@ -123,15 +119,13 @@
         </div>
     </main>
 
-<script src="contador.js"></script>
-    
-    <footer>
-        <div class="desglosePrecio">
-            <div class="columnaTexto">
-                <h5>Subtotal</h5>
-                <h5>Tax Y Fees</h5>
-                <h5>Delivery</h5>
-                <h5>TOTAL</h5>
+
+     <footer class="desglosePrecio">
+          <div class="columnaTexto">
+                <p>Subtotal</p>
+                <p>Tax Y Fees</p>
+                <p>Delivery</p>
+                <p>TOTAL</p>
            </div> 
 
            <div class="columnaPrecio">
@@ -140,13 +134,12 @@
                 <p>Free</p>
                 <p>$98.00</p>
            </div>
-       </div>
-       <div class="botonEnvio">
-          <button class="boton">Enviar pedido</button>
-       </div>
+       
+           <button class="boton">Enviar pedido</button>
+     
+      </footer>
 
-    </footer>
-
+<script src="contador.js"></script>
 </body>
 
 </html>
