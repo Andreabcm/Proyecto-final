@@ -8,48 +8,30 @@ body {
     overflow: hidden;
 }
 
-.fila1 {
+header {
+    padding-left: 15px;
+    font-family: "Raleway";
     width: 100%;
-    justify-content: center;
-    display: flex;
-    background-color: #fff;
+    height: 15vh;
 }
 
-.fila2 {
-    background: #ffffff;
-    width: 100%;
+h2 {
+    font-size: 2vh;
+    margin-top: 5px;
+    margin-left: 70%;
 }
 
 h1 {
-    font-family: "Raleway";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 38px;
+    font-size: 5vh;
     line-height: 33px;
-    letter-spacing: -0.02em;
-    color: #303030;
     padding-bottom: 2vh;
-    margin-bottom: 0px;
-}
-
-.Bigcontainer {
-    width: 100%;
 }
 
 p {
-    font-family: "Raleway";
-    font-style: normal;
     font-weight: 500;
     font-size: 2vh;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
     letter-spacing: 0.07em;
     color: #B4B4B4;
-}
-
-.encabezado {
-    padding-left: 15px;
 }
 
 .fila3 {
@@ -158,11 +140,11 @@ p {
     border: none;
 }
 
-input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
-
 
 .texto p {
     font-family: "Raleway";
