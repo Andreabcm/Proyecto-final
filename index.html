@@ -12,133 +12,48 @@
 </head>
 
 <body>
+
+
     <header>
         <h2>Food House</h2>
         <h1>Food For Home</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, tenetur</p>
     </header>
 
-    <div class="contenedor ">
-        <div class="fila3 ">
-            <div class="menu-card ">
+    <div class="sliderFlex ">
+        <div class="slider">
+            <div class="cardSlider ">
                 <img src="img/breakfast.png " alt=" ">
                 <p>Breakfast</p>
             </div>
-            <div class="menu-card ">
+            <div class="cardSlider ">
                 <img src="img/hamburguer.png " alt=" ">
                 <p>Fast food</p>
             </div>
-            <div class="menu-card ">
+            <div class="cardSlider">
                 <img src="img/pavo.png " alt=" ">
                 <p>Dinner</p>
             </div>
-            <div class="menu-card ">
+            <div class="cardSlider">
                 <img src="img/cake.png " alt=" ">
                 <p>Dessert</p>
             </div>
-            <div class="menu-card ">
+            <div class="cardSlider">
                 <img src="img/salad.png " alt=" ">
                 <p>Salad</p>
             </div>
-            <div class="menu-card ">
+            <div class="cardSlider">
                 <img src="img/tocino.png " alt=" ">
                 <p>Tapa</p>
             </div>
         </div>
     </div>
-    <div class="fila4 ">
-        <div class="principal ">
-            <div class="elemento ">
-                <img src="https://www.clara.es/medio/2019/05/22/comidas-rapidas-macarrones-tomate-queso_32d22b0f_1000x1501.jpg " alt=" ">
-                <div class="texto ">
-                    <p>$52.00</p>
-                    <h5>Chiken Veggi Salad</h5>
-                    <h6>With cheese sauce</h6>
-                </div>
-                <div class="contador ">
-                    <button class="resta " onclick="resta() ">-</button>
-                    <input type="number " id="numero " value="00 ">
-                    <button class="suma " onclick="suma() ">+</button>
-                </div>
-            </div>
-            <div class="elemento ">
-                <div class="imagen ">
-                    <img src="https://www.clara.es/medio/2019/05/22/comidas-rapidas-macarrones-tomate-queso_32d22b0f_1000x1501.jpg " alt=" ">
-                </div>
-                <div class="texto ">
-                    <p>$52.00</p>
-                    <h5>Chiken Veggi Salad</h5>
-                    <h6>With cheese sauce</h6>
-                </div>
-                <div class="contador ">
-                    <button class="resta " onclick="resta() ">-</button>
-                    <input type="number " id="numero " value="00 ">
-                    <button class="suma " onclick="suma() ">+</button>
-                </div>
-            </div>
-            <div class="elemento ">
-                <div class="imagen ">
-                    <img src="https://www.clara.es/medio/2019/05/22/comidas-rapidas-macarrones-tomate-queso_32d22b0f_1000x1501.jpg " alt=" ">
-                </div>
-                <div class="texto ">
-                    <p>$52.00</p>
-                    <h5>Chiken Veggi Salad</h5>
-                    <h6>With cheese sauce</h6>
-                </div>
-                <div class="contador ">
-                    <button class="resta " onclick="resta() ">-</button>
-                    <input type="number " id="numero " value="00 ">
-                    <button class="suma " onclick="suma() ">+</button>
-                </div>
-            </div>
-            <div class="elemento ">
-                <div class="imagen ">
-                    <img src="https://www.clara.es/medio/2019/05/22/comidas-rapidas-macarrones-tomate-queso_32d22b0f_1000x1501.jpg " alt=" ">
-                </div>
-                <div class="texto ">
-                    <p>$52.00</p>
-                    <h5>Chiken Veggi Salad</h5>
-                    <h6>With cheese sauce</h6>
-                </div>
-                <div class="contador ">
-                    <button class="resta " onclick="resta() ">-</button>
-                    <input type="number " id="numero " value="00 ">
-                    <button class="suma " onclick="suma() ">+</button>
-                </div>
-            </div>
-            <div class="elemento ">
-                <div class="imagen ">
-                    <img src="https://www.clara.es/medio/2019/05/22/comidas-rapidas-macarrones-tomate-queso_32d22b0f_1000x1501.jpg " alt=" ">
-                </div>
-                <div class="texto ">
-                    <p>$52.00</p>
-                    <h5>Chiken Veggi Salad</h5>
-                    <h6>With cheese sauce</h6>
-                </div>
-                <div class="contador ">
-                    <button class="resta " onclick="resta() ">-</button>
-                    <input type="number " id="numero " value="00 ">
-                    <button class="suma " onclick="suma() ">+</button>
-                </div>
-            </div>
-            <div class="elemento ">
-                <div class="imagen ">
-                    <img src="https://www.clara.es/medio/2019/05/22/comidas-rapidas-macarrones-tomate-queso_32d22b0f_1000x1501.jpg " alt=" ">
-                </div>
-                <div class="texto ">
-                    <p>$52.00</p>
-                    <h5>Chiken Veggi Salad</h5>
-                    <h6>With cheese sauce</h6>
-                </div>
-                <div class="contador ">
-                    <button class="resta " onclick="resta() ">-</button>
-                    <input type="number " id="numero " value="00 ">
-                    <button class="suma " onclick="suma() ">+</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script src="contador.js "></script>
+    <div class="fila4"></div>
+
+    <script src="contador.js"></script>
+    <script src="listaplatos.js"></script>
+    <script src="elementos.js"></script>
+
     <footer>
         <button class="iconos ">
             <img src="img/home.svg " class="iconotamaño "></img>
@@ -148,11 +63,13 @@
             <img src="img/bolsalike.svg " class="iconotamaño "></img>
         </button>
 
-        <button class="boton ">
+        <button onClick="cart()" class="boton">
             <div class="imgboton ">
                 <img src="img/bolsa.svg " class="iconocentro "></img>
             </div>
         </button>
+
+        <script src="cartShopping.js"></script>
 
         <button class="iconos ">
             <img src="img/corazon.svg " class="iconotamaño "></img>
@@ -161,6 +78,11 @@
             <img src="img/usuario.svg " class="iconotamaño "></img>
         </button>
     </footer>
+
+
+    <div class="checkout">
+
+    </div>
 </body>
 
 </html>
