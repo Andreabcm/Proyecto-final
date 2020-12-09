@@ -1,17 +1,16 @@
-let i = 0;
-let numero;
-function suma() {
-    if (i < 10){
+let max = 10;
+let min = 0;
+function suma(objeto) {
+   let i = parseFloat(objeto.parentElement.querySelector("input").value)
+    if(i < max) {
         i++;
-        numero = document.getElementById("numero").value = i;
-        return numero;
+        return objeto.parentElement.querySelector("input").value = i;
     }
 }
-
-function resta() {
-    if(i > 0) {
+function resta(objeto) {
+  let i = parseFloat(objeto.parentElement.querySelector("input").value)
+    if(i > min) {
         i--;
-        document.getElementById("numero").value = i;
-        return numero;
+        return objeto.parentElement.querySelector("input").value = i;
     }
 }
