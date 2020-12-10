@@ -4,7 +4,7 @@ let elementos = "";
         elementos += `<div class="elemento">
     <img src="${listaPlatos[i].imgPLato}" alt=" ">
     <div class="texto ">
-        <p>$${listaPlatos[i].precioPlato}</p>
+        <p>${listaPlatos[i].precioPlato}</p>
         <h5>${listaPlatos[i].nombrePlato}</h5>
         <h6>${listaPlatos[i].descripcionPlato}</h6>
     </div>
