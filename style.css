@@ -222,13 +222,15 @@ footer {
     border-width: 0px;
     border-style: outset;
     border-image: initial;
+    cursor: pointer;
 }
 
 .imgboton {
-    width: 1vh;
-    top: 5vh;
-    position: absolute;
+    width: 57%;
     display: flex;
+    top: 16%;
+    justify-content: center;
+    position: relative;
 }
 
 .iconos {
@@ -245,11 +247,3 @@ footer {
     position: relative;
 }
 
-.iconocentro {
-    position: relative;
-    width: 5vh;
-    height: 4vh;
-    right: 2vh;
-    bottom: 3.5vh;
-    mix-blend-mode: screen;
-}
