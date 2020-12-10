@@ -1,6 +1,7 @@
 let elementos = "";
- function platosImprimir(){
-    for (let i = 0; i < listaPlatos.length; i++){
+
+function platosImprimir() {
+    for (let i = 0; i < listaPlatos.length; i++) {
         elementos += `<div class="elemento">
     <img src="${listaPlatos[i].imgPLato}" alt=" ">
     <div class="texto ">
@@ -18,4 +19,5 @@ let elementos = "";
 }
 
 platosImprimir();
-document.querySelector(".fila4").innerHTML = elementos;
+document.querySelector(".elementosMenu1").innerHTML = elementos;
+document.querySelector(".elementosMenu2").innerHTML = elementos;

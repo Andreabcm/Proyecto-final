@@ -1,14 +1,22 @@
 function cleanBody() {
     let principal = document.getElementById("principal");
-        if (principal.style.display === "block") {
-            principal.style.display = "none";
-        } 
-}
+    if (principal.style.display === "block") {
+        principal.style.display = "none";
+    }
+};
 
+function paginaSegunda() {
+    let checkout = document.getElementById("checkout");
+    if (checkout.style.display === "none") {
+        checkout.style.display = "block";
+    }
+};
 
 function cart() {
-    cleanBody(); 
-};
+    cleanBody();
+    paginaSegunda();
+}
+
 
 
 
@@ -18,5 +26,4 @@ function cart() {
 
 
     condicionales ternarios
-*/   
-    
+*/

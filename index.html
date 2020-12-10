@@ -8,76 +8,117 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="icon" href="img/favicon.svg">
     <link href=" https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap " rel="stylesheet ">
-    <link rel="stylesheet " href="style.css ">
+    <link rel="stylesheet " href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
 </head>
 
 <body>
 
-    <div id= "principal" style = "display:block;">
-    <header>
-        <h2>Food House</h2>
-        <h1>Food For Home</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, tenetur</p>
-    </header>
+    <div id="principal" style="display: block;">
+        <header>
+            <h2>Food House</h2>
+            <h1>Food For Home</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, tenetur</p>
+        </header>
 
-    <div class="sliderFlex ">
-        <div class="slider">
-            <div class="cardSlider ">
-                <img src="img/breakfast.png " alt=" ">
-                <p>Breakfast</p>
-            </div>
-            <div class="cardSlider ">
-                <img src="img/hamburguer.png " alt=" ">
-                <p>Fast food</p>
-            </div>
-            <div class="cardSlider">
-                <img src="img/pavo.png " alt=" ">
-                <p>Dinner</p>
-            </div>
-            <div class="cardSlider">
-                <img src="img/cake.png " alt=" ">
-                <p>Dessert</p>
-            </div>
-            <div class="cardSlider">
-                <img src="img/salad.png " alt=" ">
-                <p>Salad</p>
-            </div>
-            <div class="cardSlider">
-                <img src="img/tocino.png " alt=" ">
-                <p>Tapa</p>
+        <div class="sliderFlex ">
+            <div class="slider">
+                <div class="cardSlider ">
+                    <img src="img/breakfast.png " alt=" ">
+                    <p>Breakfast</p>
+                </div>
+                <div class="cardSlider ">
+                    <img src="img/hamburguer.png " alt=" ">
+                    <p>Fast food</p>
+                </div>
+                <div class="cardSlider">
+                    <img src="img/pavo.png " alt=" ">
+                    <p>Dinner</p>
+                </div>
+                <div class="cardSlider">
+                    <img src="img/cake.png " alt=" ">
+                    <p>Dessert</p>
+                </div>
+                <div class="cardSlider">
+                    <img src="img/salad.png " alt=" ">
+                    <p>Salad</p>
+                </div>
+                <div class="cardSlider">
+                    <img src="img/tocino.png " alt=" ">
+                    <p>Tapa</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="fila4"></div>
+        <div class="elementosMenu1"></div>
 
-    
 
-    <footer>
-        <button class="iconos ">
+
+        <footer>
+            <button class="iconos ">
             <img src="img/home.svg " class="iconotamaño "></img>
         </button>
 
-        <button class="iconos ">
+            <button class="iconos ">
             <img src="img/bolsalike.svg " class="iconotamaño "></img>
         </button>
 
-        <button onClick="cart()" class="boton">
+            <button onClick="cart()" class="boton">
                 <img src="img/bolsa.svg " class="imgboton"></img>
         </button>
 
-        
 
-        <button class="iconos ">
+
+            <button class="iconos ">
             <img src="img/corazon.svg " class="iconotamaño "></img>
         </button>
-        <button class="iconos ">
+            <button class="iconos ">
             <img src="img/usuario.svg " class="iconotamaño "></img>
         </button>
-    </footer>
+        </footer>
     </div>
 
-    <div id="checkout">
-        
+    <div id="checkout" style="display: none;">
+
+        <header>
+            <div class="fila1">
+                <button class="return"><img src="img/flechita.png" alt="return"></button>
+                <button class="delete"><img src="img/papelera.png" alt="delete"></button>
+            </div>
+
+            <div class="fila2">
+                <h3>My Cart</h3>
+            </div>
+        </header>
+
+        <main>
+            <div class="elementosMenu2">
+
+            </div>
+        </main>
+
+
+        <footer class="desglosePrecio">
+            <div class="columnaTexto">
+                <p>Subtotal</p>
+                <p>Tax Y Fees</p>
+                <p>Delivery</p>
+                <p>TOTAL</p>
+            </div>
+
+            <div class="columnaPrecio">
+                <p>$96.00</p>
+                <p>$2.00</p>
+                <p>Free</p>
+                <p>$98.00</p>
+            </div>
+
+            <button class="boton2">Enviar pedido</button>
+
+        </footer>
+
+        <script src="contador.js"></script>
+
     </div>
 
 
