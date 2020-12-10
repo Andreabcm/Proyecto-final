@@ -10,7 +10,7 @@ let elementos = "";
     </div>
     <div class="contador">
         <button onClick="resta(this)" class="resta">-</button>
-        <input id="input" type="number" value="0" />
+        <input id="input" type="number" value="${listaPlatos[i].cantidad}" />
         <button onClick="suma(this)" class="suma">+</button>
     </div>
 </div>`
