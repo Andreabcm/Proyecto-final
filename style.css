@@ -104,10 +104,6 @@ p {
     border-radius: 31px;
 }
 
-.principal {
-    padding: 1rem;
-}
-
 .contador {
     display: flex;
     justify-content: center;
