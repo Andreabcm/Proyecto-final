@@ -75,10 +75,10 @@ main {
 }
 
 .elemento img {
-    width: 137px;
-    height: 150px;
+    width: 90px;
+    height: 105px;
     object-fit: cover;
-    border-radius: 31px;
+    border-radius: 15px;
 }
 
 .principal {
@@ -108,7 +108,7 @@ main {
     background: #ededef;
 }
 
-.contador input {
+.quantity {
     width: 40px;
     height: 30px;
     text-align: center;
@@ -127,8 +127,8 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: "Raleway";
     font-style: normal;
     font-weight: bold;
-    font-size: 25px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 15px;
     color: gold;
 }
 
@@ -136,8 +136,8 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: "Raleway";
     font-style: normal;
     font-weight: 600;
-    font-size: 22px;
-    line-height: 36px;
+    font-size: 15px;
+    line-height: 30px;
     color: #000000;
 }
 
@@ -145,8 +145,8 @@ input[type=number]::-webkit-outer-spin-button {
     font-family: "Raleway";
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 15px;
     color: rgba(0, 0, 0, 0.43);
 }
 
