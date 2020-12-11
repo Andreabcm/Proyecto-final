@@ -1,8 +1,8 @@
 function suma(objeto) {
    let indicearray = objeto.parentElement.dataset.numero;
    let cantidadItems = listaPlatos[indicearray].cantidad;
-        listaPlatos[indicearray].cantidad = 6;
-        console.log(cantidadItems)
+   cantidadItems++;
+   listaPlatos[indicearray].cantidad = cantidadItems
 }
 
 function resta(objeto) {
