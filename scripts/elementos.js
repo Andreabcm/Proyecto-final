@@ -9,7 +9,7 @@ function platosImprimir() {
         <h5>${listaPlatos[i].nombrePlato}</h5>
         <h6>${listaPlatos[i].descripcionPlato}</h6>
     </div>
-    <div "class="contador" data-numero="${[i]}">
+    <div class="contador" data-numero="${[i]}">
         <button onClick="resta(this)" class="resta">-</button>
         <input type="number" value="${listaPlatos[i].cantidad}" />
         <button onClick="suma(this)" class="suma">+</button>
