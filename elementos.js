@@ -9,9 +9,9 @@ function platosImprimir() {
         <h5>${listaPlatos[i].nombrePlato}</h5>
         <h6>${listaPlatos[i].descripcionPlato}</h6>
     </div>
-    <div class="contador">
+    <div "class="contador" data-numero="${[i]}">
         <button onClick="resta(this)" class="resta">-</button>
-        <input id="input" type="number" value="${listaPlatos[i].cantidad}" />
+        <input type="number" value="${listaPlatos[i].cantidad}" />
         <button onClick="suma(this)" class="suma">+</button>
     </div>
 </div>`
@@ -19,5 +19,5 @@ function platosImprimir() {
 }
 
 platosImprimir();
-document.querySelector(".elementosMenu1").innerHTML = elementos;
+const cambio = document.querySelector(".elementosMenu1").innerHTML = elementos;
 document.querySelector(".elementosMenu2").innerHTML = elementos;

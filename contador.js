@@ -1,15 +1,13 @@
-let max = 10;
-let min = 0;
 function suma(objeto) {
-   let i = parseFloat(objeto.parentElement.querySelector("input").value)
-    if(i < max) {
-        i++;
-        return objeto.parentElement.querySelector("input").value = i;
-    }
+   let indicearray = objeto.parentElement.dataset.numero;
+   let cantidadItems = listaPlatos[indicearray].cantidad;
+        listaPlatos[indicearray].cantidad = 6;
+        console.log(cantidadItems)
 }
+
 function resta(objeto) {
   let i = parseFloat(objeto.parentElement.querySelector("input").value)
-    if(i > min) {
+    if(i > 0) {
         i--;
         return objeto.parentElement.querySelector("input").value = i;
     }
