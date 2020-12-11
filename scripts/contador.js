@@ -1,14 +1,18 @@
+let secondArray = [" "];
+
 function suma(objeto) {
-   let indicearray = objeto.parentElement.dataset.numero;
-   let cantidadItems = listaPlatos[indicearray].cantidad;
-        listaPlatos[indicearray].cantidad = 6;
-        console.log(cantidadItems)
-}
+  let indicearray = objeto.parentElement.dataset.numero;
+  listaPlatos[indicearray].cantidad++
+  objeto.parentElement.querySelector("p").innerHTML = listaPlatos[indicearray].cantidad;
+  
+  secondArray.push(document.querySelector(".elementosMenu1").innerHTML)
+  document.querySelector(".elementosMenu2").innerHTML = secondArray;
+} 
 
 function resta(objeto) {
-  let i = parseFloat(objeto.parentElement.querySelector("inpugitt").value)
-    if(i > 0) {
-        i--;
-        return objeto.parentElement.querySelector("input").value = i;
-    }
-}
+  let indicearray = objeto.parentElement.dataset.numero;
+    if (listaPlatos[indicearray].cantidad > 0) {
+    listaPlatos[indicearray].cantidad--
+    objeto.parentElement.querySelector("p").innerHTML = listaPlatos[indicearray].cantidad;
+  }
+} 
