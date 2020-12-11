@@ -4,7 +4,8 @@ function suma(objeto) {
   let indicearray = objeto.parentElement.dataset.numero;
   listaPlatos[indicearray].cantidad++
   objeto.parentElement.querySelector("p").innerHTML = listaPlatos[indicearray].cantidad;
-  secondArray.push(objeto.parentElement.dataset.numero.listaPlatos[indicearray])
+  
+  secondArray.push(document.querySelector(".elementosMenu1").innerHTML)
   document.querySelector(".elementosMenu2").innerHTML = secondArray;
 } 
 
