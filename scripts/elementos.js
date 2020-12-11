@@ -19,5 +19,5 @@ function platosImprimir() {
 }
 
 platosImprimir();
-const cambio = document.querySelector(".elementosMenu1").innerHTML = elementos;
-document.querySelector(".elementosMenu2").innerHTML = elementos;
+document.querySelector(".elementosMenu1").innerHTML = elementos;
+document.querySelector(".elementosMenu2").innerHTML = secondArray;
