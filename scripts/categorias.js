@@ -16,7 +16,7 @@ let categorias = [
 
     {
         imgCategoria: ".img/slider/breakfast.svg",
-        nombre: "Cena",
+        nombre: "Desayunos",
     }
 
     {
