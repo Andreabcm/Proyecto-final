@@ -39,7 +39,6 @@
         }
         
         .slider {
-            background: #ECECEC;
             display: inline-block;
             overflow-x: auto;
             overflow-y: none;
@@ -54,9 +53,6 @@
             display: none;
         }
         
-        .sliderFlex {
-            display: flex;
-        }
         
         .cardSlider {
             display: inline-flex;
@@ -65,7 +61,8 @@
             width: 13vh;
             height: 16vh;
             margin: 1.6vh 1.3vh;
-            border-radius: 20px;
+            border-radius: 13px;
+            filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.2) );
         }
         
         .cardSlider img {
