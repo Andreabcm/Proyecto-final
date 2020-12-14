@@ -1,8 +1,8 @@
-let elementos = "";
+let secondArray = "";
 
-function platosImprimir() {
-    for (let i = 0; i < listaPlatos.length; i++) {
-        elementos += `<div class="elemento">
+function añadir() {
+    for (let i = 0; i < listaPlatos.cantidad; i++) {
+        secondArray += `<div class="elemento">
     <img src="${listaPlatos[i].imgPLato}" alt=" ">
     <div class="texto ">
         <p>${listaPlatos[i].precioPlato}&#8364</p>
@@ -18,5 +18,7 @@ function platosImprimir() {
     }
 }
 
-platosImprimir();
-document.querySelector(".elementosMenu1").innerHTML = elementos;
+
+
+secondArray.push(document.querySelector(".elementosMenu1").innerHTML)
+document.querySelector(".elementosMenu2").innerHTML = secondArray;

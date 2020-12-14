@@ -5,8 +5,8 @@ function suma(objeto) {
   listaPlatos[indicearray].cantidad++
   objeto.parentElement.querySelector("p").innerHTML = listaPlatos[indicearray].cantidad;
   
-  secondArray.push(document.querySelector(".elementosMenu1").innerHTML)
-  document.querySelector(".elementosMenu2").innerHTML = secondArray;
+  
+
 } 
 
 function resta(objeto) {
