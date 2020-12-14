@@ -1,3 +1,5 @@
+let secondArray = [];
+
 function suma(objeto) {
   let indicearray = objeto.parentElement.dataset.numero;
   listaPlatos[indicearray].cantidad++

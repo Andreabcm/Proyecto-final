@@ -1,7 +1,7 @@
 function imprimirCarrito() {
     let texto = ""
     
-for (let i = 0; i < listaPlatos[0].cantidad; i++) {
+for (let i = 0; i < carritoDeCompra.length; i++) {
     texto += `<div class="elemento">
     <img src="${secondArray[i].imgPLato}" alt=" ">
     <div class="texto ">
