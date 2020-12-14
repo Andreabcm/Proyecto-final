@@ -13,27 +13,31 @@
         }
         
         header {
-            padding-left: 15px;
+            padding-left: 5%;
+            padding-top: 5%;
+            padding-right: 5%;
             font-family: "Raleway";
-            width: 100%;
-            height: 15vh;
-        }
-        
-        h2 {
-            font-size: 2vh;
-            margin-top: 5px;
-            margin-left: 70%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
         }
         
         h1 {
-            font-size: 5vh;
+            font-size: 3vh;
             line-height: 33px;
             padding-bottom: 2vh;
+        }
+
+        .logo {
+            width: 22vw;
+            height: 12vw;
+            
         }
         
         p {
             font-weight: 500;
-            font-size: 2vh;
+            font-size: 1.5vh;
             letter-spacing: 0.07em;
             color: #B4B4B4;
         }
@@ -47,6 +51,7 @@
             width: 100%;
             height: 20vh;
             padding-left: 1rem;
+            cursor: grab;
         }
         
         .slider::-webkit-scrollbar {
@@ -78,16 +83,20 @@
         }
         
         .elementosMenu1 {
-            background-color: white;
+            background-color: #fdfdfd;
             width: 100%;
-            height: 50vh;
+            height: 55vh;
             overflow-x: auto;
+            padding-left: 3%;
+            padding-right: 3%;
         }
         
         .texto {
             display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            width: 50vw;
             align-items: center;
-            flex-direction: column;
         }
         
         .elemento {
@@ -96,12 +105,12 @@
             background: #FFFFFF;
             justify-content: space-around;
             align-items: center;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
         }
         
         .elemento img {
-            width: 90px;
-            height: 105px;
+            width: 24vw;
+            height: 28vw;
             object-fit: cover;
             border-radius: 15px;
         }
@@ -113,7 +122,7 @@
         }
         
         .contador button {
-            width: 40px;
+            width: 35px;
             height: 30px;
         }
         
@@ -130,13 +139,14 @@
         }
         
         .quantity {
-            width: 40px;
+            width: 35px;
             height: 30px;
             text-align: center;
             font-size: 1px;
-            font-size: 22px;
+            font-size: 15px;
             border: none;
             color: black;
+            line-height: 25px;
         }
         
         input[type=number]::-webkit-inner-spin-button,
@@ -152,24 +162,29 @@
             font-size: 20px;
             line-height: 15px;
             color: gold;
+            padding-bottom: 3%;
         }
         
         .texto h5 {
             font-family: "Raleway";
             font-style: normal;
             font-weight: 600;
-            font-size: 15px;
-            line-height: 30px;
+            font-size: 14px;
+            line-height: 14px;
             color: #000000;
+            text-align: center;
+            padding-top: 3%;
+            padding-bottom: 3%;
         }
         
         .texto h6 {
             font-family: "Raleway";
             font-style: normal;
             font-weight: normal;
-            font-size: 14px;
-            line-height: 15px;
+            font-size: 13px;
+            line-height: 13px;
             color: rgba(0, 0, 0, 0.43);
+            text-align: center;
         }
         
         .fila5 {
@@ -200,10 +215,10 @@
         }
         
         footer {
-            height: 15vh;
+            height: 10vh;
             width: 100%;
             background: #FAFAFA;
-            position: sticky;
+            position: fixed;
             bottom: 0px;
             display: flex;
             justify-content: space-around;
@@ -216,10 +231,11 @@
             width: 8vh;
             height: 8vh;
             border-radius: 50px;
-            top: -2vh;
+            top: -50%;
             position: absolute;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            align-items: center;
             filter: drop-shadow(0px 1px 3px hsl(0, 0%, 35%));
             border-width: 0px;
             border-style: outset;
@@ -229,17 +245,13 @@
         
         .imgboton {
             width: 57%;
-            display: flex;
-            top: 16%;
-            justify-content: center;
-            position: relative;
         }
         
         .iconos {
             border-width: 0px;
             border-style: outset;
             border-image: initial;
-            background-color: white;
+            background-color: transparent;
             cursor: alias;
         }
         

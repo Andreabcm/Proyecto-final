@@ -47,7 +47,7 @@ let cardSlider = "";
 
 function categoriasImprimir() {
     for (let i = 0; i < listaCategorias.length; i++) {
-        cardSlider += `<div class="cardSlider">
+        cardSlider += `<div class="cardSlider" onClick="filtrar()">
         <img src="${listaCategorias[i].imgCategoria}" alt=" ">
         <p>${listaCategorias[i].nombreCategoria}</p>
         </div>`
@@ -56,4 +56,9 @@ function categoriasImprimir() {
 
 categoriasImprimir();
 document.querySelector(".slider").innerHTML = cardSlider;
+
+
+/*
+OJO: hay un onClick en cardSlider que se debe cambiar cuando cambie el contenido de la función, si amerita
+*/
 
