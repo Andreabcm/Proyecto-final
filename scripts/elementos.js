@@ -20,4 +20,3 @@ function platosImprimir() {
 
 platosImprimir();
 document.querySelector(".elementosMenu1").innerHTML = elementos;
-document.querySelector(".elementosMenu2").innerHTML = secondArray;

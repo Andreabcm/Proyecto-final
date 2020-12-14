@@ -24,7 +24,7 @@ let listaPlatos = [
         nombreCategoria: "Almuerzo, Cena",
     },
     {
-        imgPLato: "./img/hamburguesa.jpg",
+        imgPLato: "./img/Hamburguesa.jpg",
         precioPlato: 9.00,
         nombrePlato:"Hamburguesa Clásica",
         descripcionPlato: "Con queso cheddar",
@@ -98,3 +98,4 @@ let listaPlatos = [
     },
 
 ]
+let secondArray = [];
