@@ -17,5 +17,6 @@ function resta(objeto) {
 } 
 
 function addToCart(itemPlato) {
-  carritoDeCompra.push(itemPlato)
+if (itemPlato.cantidad == 1)
+        carritoDeCompra.push(itemPlato)
 }
