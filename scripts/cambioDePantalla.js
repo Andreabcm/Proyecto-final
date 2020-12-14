@@ -23,9 +23,7 @@ function cart() {
     cleanBody();
     paginaSegunda();
     añadir();
-    
 }
-
 
 
 
