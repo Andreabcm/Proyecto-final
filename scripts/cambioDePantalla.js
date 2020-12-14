@@ -22,7 +22,7 @@ function paginaSegunda() {
 function cart() {
     cleanBody();
     paginaSegunda();
-    añadir();
+    imprimirCarrito();
 }
 
 

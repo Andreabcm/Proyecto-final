@@ -98,4 +98,4 @@ let listaPlatos = [
     },
 
 ]
-let secondArray = [];
+let carritoDeCompra = [];
