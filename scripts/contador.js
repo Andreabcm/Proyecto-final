@@ -1,11 +1,12 @@
-let secondArray = [" "];
+let secondArray = [];
 
 function suma(objeto) {
   let indicearray = objeto.parentElement.dataset.numero;
   listaPlatos[indicearray].cantidad++
   objeto.parentElement.querySelector("p").innerHTML = listaPlatos[indicearray].cantidad;
+  console.log(listaPlatos[indicearray])
   
-  secondArray.push(document.querySelector(".elementosMenu1").innerHTML)
+  secondArray.unshift(listaPlatos[indicearray])
   document.querySelector(".elementosMenu2").innerHTML = secondArray;
 } 
 
