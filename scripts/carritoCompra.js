@@ -1,9 +1,8 @@
-function añadir() {
+function imprimirCarrito() {
+    let texto = ""
     
-    let indice = document.querySelector(".contador").dataset.numero
-
-    for (let i = 0; i < listaPlatos[0].cantidad; i++) {
-        secondArray += `<div class="elemento">
+for (let i = 0; i < listaPlatos[0].cantidad; i++) {
+    texto += `<div class="elemento">
     <img src="${secondArray[i].imgPLato}" alt=" ">
     <div class="texto ">
         <p>${secondArray[i].precioPlato}&#8364</p>
@@ -17,7 +16,7 @@ function añadir() {
     </div>
 </div>`
     }
-    secondArray.push(document.querySelector(".elementosMenu2"))
+    
     document.querySelector(".elementosMenu2").innerHTML = secondArray;
     console.log(secondArray)
 }
