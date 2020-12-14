@@ -5,7 +5,7 @@ function suma(objeto) {
   listaPlatos[indicearray].cantidad++
   objeto.parentElement.querySelector("p").innerHTML = listaPlatos[indicearray].cantidad;
 
-  carritoDeCompra.push(listaPlatos[indicearray])
+  addToCart(listaPlatos[indicearray])
 } 
 
 function resta(objeto) {
