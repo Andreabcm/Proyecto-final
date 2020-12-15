@@ -183,6 +183,10 @@ input[type=number]::-webkit-outer-spin-button {
     width: 17vw;
 }
 
+.columnaPrecio p{
+    color: white;
+}
+
 .botonEnvio {
     display: flex;
     justify-content: center;

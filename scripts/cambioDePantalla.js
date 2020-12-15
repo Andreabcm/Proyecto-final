@@ -23,7 +23,11 @@ function cart() {
     cleanBody();
     paginaSegunda();
     imprimirCarrito();
+
+    
     imprimirPrecio();
+    document.querySelector(".desglosePrecio").innerHTML = subTotal;
+    
 }
 
 
