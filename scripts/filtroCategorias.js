@@ -5,10 +5,10 @@ luego imprimir el objeto en forma de html
 
 function filtrar(){
     let catFiltrada = "";
-    for(let j = 0; j < listaPlatos.length; j++){;
-        for(let k = 0; k < listaCategorias.length; k++){
-            if(listaPlatos[j].nombreCategoria === listaCategorias[k].nombreCategoria){
-                
+    for(let i = 0; i < listaPlatos.length; i++){;
+        for(let j = 0; j < listaCategorias.length; j++){
+            if(listaPlatos[i].nombreCategoria === listaCategorias[j].nombreCategoria){
+                catFiltrada.push(listaCategorias)
 
             }
                
