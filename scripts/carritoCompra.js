@@ -1,6 +1,6 @@
 function imprimirCarrito() {
     let texto = "";
-    console.log(carritoDeCompra);
+   
 for (let i = 0; i < carritoDeCompra.length; i++) {
     texto += `<div class="elemento">
     <img src="${carritoDeCompra[i].imgPLato}" alt=" ">
