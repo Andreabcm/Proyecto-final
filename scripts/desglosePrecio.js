@@ -1,32 +1,28 @@
 let texto = "";
 
 function imprimirPrecio() {
-    
-  
-        console.log (carritoDeCompra)
-        texto += `<div class="precio">
-        <div class="columnaTexto">
-           <p>Subtotal</p>
-           <p>Tasas</p>
-           <p>Delivery</p>
-           <p>TOTAL</p>
-        </div>
+   
+   for (let i = document.querySelector(".elementosMenu2 .elemento .contador").dataset.numero; i < carritoDeCompra.length; i++) {
+      let subtotal = carritoDeCompra[i].precioPlato * carritoDeCompra[i].cantidad;
+      let tasas = 0.10 * subtotal;
+      let total = subtotal + tasas;
+   
+   texto += `<div class="precio">
+   <div class="columnaTexto">
+      <p>Subtotal</p>
+      <p>Tasas</p>
+      <p>Delivery</p>
+      <p>TOTAL</p>
+   </div>
 
-        <div class="columnaPrecio">
-           <p>{carritoDeCompra[i].precioPlato}&#8364</p>
-           <p>{carritoDeCompra[i].precioPlato}&#8364</p>
-           <p>Free</p>
-           <p>{carritoDeCompra[i].precioPlato}&#8364</p>
-        </div>
-    </div>
-    <button class="boton2">Enviar pedido</button>` 
-        
-    
-        
+   <div class="columnaPrecio">
+      <p>${subtotal}&#8364</p>
+      <p>${tasas}&#8364</p>
+      <p>Free</p>
+      <p>${total}&#8364</p>
+   </div>
+</div>
+<button class="boton2">Enviar pedido</button>` 
+
+   }
 }
-
-imprimirPrecio();
-document.querySelector(".desglosePrecio").innerHTML = texto;
-
-
-
