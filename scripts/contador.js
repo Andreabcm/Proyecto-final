@@ -11,10 +11,20 @@ function resta(objeto) {
     if (listaPlatos[indicearray].cantidad > 0) {
     listaPlatos[indicearray].cantidad--
     objeto.parentElement.querySelector("p").innerHTML = listaPlatos[indicearray].cantidad;
+
+    borrarItem(listaPlatos[indicearray])
   }
 } 
 
 function addToCart(itemPlato) {
-if (itemPlato.cantidad == 1)
+if (itemPlato.cantidad == 1){
         carritoDeCompra.push(itemPlato)
+  }
 }
+
+function borrarItem(itemPlato) {
+  if (carritoDeCompra.cantidad < 1){
+    this.carritoDeCompra.splice(carritoDeCompra, 0)
+  }
+}
+

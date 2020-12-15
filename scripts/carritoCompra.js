@@ -10,9 +10,7 @@ for (let i = 0; i < carritoDeCompra.length; i++) {
         <h6>${carritoDeCompra[i].descripcionPlato}</h6>
     </div>
     <div class="contador" data-numero="${[i]}">
-        <button onClick="resta(this)" class="resta">-</button>
         <p class="quantity">${carritoDeCompra[i].cantidad}</p>
-        <button onClick="suma(this)" class="suma">+</button>
     </div>
 </div>`
     }
