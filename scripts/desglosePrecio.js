@@ -6,30 +6,13 @@ let precioTotal = [];
 let subTotal = "";
 
 function imprimirPrecio() {
-   
-   for (let i = document.querySelector(".elementosMenu2 .elemento .contador").dataset.numero; i < carritoDeCompra.length; i++) {
+      let i = document.querySelector(".elementosMenu2 .elemento .contador").dataset.numero
       let subtotal = carritoDeCompra[i].precioPlato * carritoDeCompra[i].cantidad;
-      subtotal[i] += subtotal[i]
-      return subtotal
-      /*let tasas = 0.10 * subtotal;
-      let total = subtotal + tasas;*/
+      let tasas = 0.10 * subtotal;
+      let total = subtotal + tasas;
+
+      document.getElementById("subtotal").innerHTML = subtotal + "&#8364";
+      document.getElementById("tasas").innerHTML = tasas.toPrecision(2) + "&#8364";
+      document.getElementById("delivery").innerHTML = "FREE";
+      document.getElementById("total").innerHTML = total + "&#8364";
    }
-   texto += `<div class="precio">
-   <div class="columnaTexto">
-      <p>Subtotal</p>
-      <p>Tasas</p>
-      <p>Delivery</p>
-      <p>TOTAL</p>
-   </div>
-
-   <div class="columnaPrecio">
-      <p>${subtotal}&#8364</p>
-      <p>{tasas}&#8364</p>
-      <p>Free</p>
-      <p>{total}&#8364</p>
-   </div>
-</div>
-<button class="boton2">Enviar pedido</button>` 
-
-
-}

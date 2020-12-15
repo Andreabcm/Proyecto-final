@@ -24,7 +24,6 @@ function cart() {
     paginaSegunda();
     imprimirCarrito();
     imprimirPrecio();
-    document.querySelector(".desglosePrecio").innerHTML = texto;
 }
 
 
