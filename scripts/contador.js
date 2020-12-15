@@ -23,8 +23,8 @@ if (itemPlato.cantidad == 1){
 }
 
 function borrarItem(itemPlato) {
-  if (carritoDeCompra.cantidad < 1){
-    this.carritoDeCompra.splice(carritoDeCompra, 0)
+  let indice = carritoDeCompra.indexOf(itemPlato);
+  if (itemPlato.cantidad == 0){
+    carritoDeCompra.splice(indice,1);
   }
 }
-

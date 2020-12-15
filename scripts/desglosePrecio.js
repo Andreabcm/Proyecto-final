@@ -10,7 +10,6 @@ function imprimirPrecio() {
    for (let i = document.querySelector(".elementosMenu2 .elemento .contador").dataset.numero; i < carritoDeCompra.length; i++) {
       let subtotal = carritoDeCompra[i].precioPlato * carritoDeCompra[i].cantidad;
       subtotal[i] += subtotal[i]
-      console.log(subtotal[i])
       return subtotal
       /*let tasas = 0.10 * subtotal;
       let total = subtotal + tasas;*/
