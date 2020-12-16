@@ -1,20 +1,10 @@
 function suma(objeto) {
   let indicearray = objeto.parentElement.dataset.numero;
-  console.log(indicearray);
-  for (let i = 0; i < carritoDeCompra.length; i++){
-    if (true){
-      addToCart(listaPlatos[indicearray])
-      
-    }
-    else {carritoDeCompra[i].cantidad++
-      
-    }
-  }
- console.log(listaPlatos[indicearray]);
-
+  listaPlatos[indicearray].cantidad++
   objeto.parentElement.querySelector("p").innerHTML = listaPlatos[indicearray].cantidad;
 
-  } 
+  addToCart(listaPlatos[indicearray])
+} 
 
 function resta(objeto) {
   let indicearray = objeto.parentElement.dataset.numero;
@@ -27,8 +17,9 @@ function resta(objeto) {
 } 
 
 function addToCart(itemPlato) {
-          carritoDeCompra.push(itemPlato)
-  
+if (itemPlato.cantidad == 1){
+        carritoDeCompra.push(itemPlato)
+  }
 }
 
 function borrarItem(itemPlato) {
@@ -42,5 +33,6 @@ function eliminarItem(botonEliminar) {
   let indiceCarrito = botonEliminar.parentElement.dataset.numero;
   carritoDeCompra[indiceCarrito].cantidad = 0;
   botonEliminar.parentElement.style.display = "none";  
+  document.querySelector(".quantity").innerHTML = carritoDeCompra[indiceCarrito].cantidad;
 }
 
