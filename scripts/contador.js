@@ -33,7 +33,8 @@ function borrarItem(itemPlato) {
 function eliminarItem(botonEliminar) {
   let indiceCarrito = botonEliminar.parentElement.dataset.numero;
   carritoDeCompra[indiceCarrito].cantidad = 0;
-  carritoDeCompra.splice(indiceCarrito,1);
+  botonEliminar.parentElement.remove();
+  
   if (carritoDeCompra[indiceCarrito].cantidad === 0){
     document.querySelector(".quantity").innerHTML = 0;
   }
