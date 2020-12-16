@@ -2,7 +2,7 @@ function imprimirCarrito() {
     let texto = "";
    
 for (let i = 0; i < carritoDeCompra.length; i++) {
-    texto += `<div class="elemento">
+    texto += `<div class="elemento" data-numero="${[i]}">
     <img src="${carritoDeCompra[i].imgPLato}" alt=" ">
     <div class="texto ">
         <p>${carritoDeCompra[i].precioPlato}&#8364</p>
@@ -12,6 +12,7 @@ for (let i = 0; i < carritoDeCompra.length; i++) {
     <div class="contador" data-numero="${[i]}">
         <p class="quantity">${carritoDeCompra[i].cantidad}</p>
     </div>
+    <button onClick="eliminarItem(this)" class="botonEliminar">x</button>
 </div>`
     }
     document.querySelector(".elementosMenu2").innerHTML = texto;

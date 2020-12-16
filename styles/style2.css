@@ -9,14 +9,10 @@ body {
 
 .fila1 {
     background-color: white;
-    display: flex;
-    justify-content: space-between;
-    padding-top: 4vh;
-    padding-right: 7vw;
 }
 
 .return img {
-    height: 50%;
+    height: 70%;
     width: auto;
     padding: 10%;
 }
@@ -27,8 +23,8 @@ body {
 }
 
 .return {
-    height: 6vw;
-    width: 6vw;
+    height: 7vw;
+    width: 7vw;
     border: none;
     background-color: #e6e4e5;
     border-radius: 1vh;
@@ -42,7 +38,6 @@ body {
 }
 
 h3 {
-    padding-top: 2vh;
     font-size: 20px;
 }
 
@@ -72,6 +67,8 @@ main {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 0.5rem;
+    padding-right: 3%;
+    padding-left: 3%;
 }
 
 .elemento img {
@@ -200,4 +197,14 @@ input[type=number]::-webkit-outer-spin-button {
     background: #FAFAFA;
     border-radius: 10px;
     border: none;
+}
+
+.botonEliminar {
+    width: 35px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid #FE6B01;
+    text-align: center;
+    color: #FE6B01;
+    border-radius: 8px;
 }
