@@ -1,7 +1,3 @@
-
-
-
-
 let precioTotal = [];
 let subTotal = "";
 
