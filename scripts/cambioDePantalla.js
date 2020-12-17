@@ -27,6 +27,12 @@ function cart() {
     imprimirPrecio();
 }
 
+function retornar(){
+    cleanBody();
+    paginaSegunda();
+    platosImprimir();
+}
+
 
 
 
