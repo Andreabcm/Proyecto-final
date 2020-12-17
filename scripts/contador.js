@@ -29,6 +29,9 @@ function resta(objeto) {
         
         let elemento = document.querySelector(`[data-numero ="${idPlato}"]`);
         elemento.querySelector("p").innerHTML = objetoPlato.cantidad;
+        if (objetoPlato.cantidad === 0){
+            imprimirCarrito();
+        }
         imprimirPrecio(objetoPlato)
     }
 }
