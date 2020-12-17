@@ -38,19 +38,24 @@ function addToCart(itemPlato) {
 function borrarItem(itemPlato) {
     let idPlato = itemPlato.id;
     let platoEnCarrito = getPlato(carritoDeCompra, idPlato);
+
+    let indice = carritoDeCompra.indexOf(itemPlato);
     
-    let indice = carritoDeCompra.indexOf(platoEnCarrito);
-    if (itemPlato.cantidad == 0) {
+    if (platoEnCarrito.cantidad == 0) {
         carritoDeCompra.splice(indice, 1);
     }
 }
 
-function eliminarItem(botonEliminar) {
-  let indiceCarrito = botonEliminar.parentElement.dataset.numero;
-  carritoDeCompra[indiceCarrito].cantidad = 0;
-  botonEliminar.parentElement.remove();
-  
-  if (carritoDeCompra[indiceCarrito].cantidad === 0){
-    document.querySelector(".quantity").innerHTML = 0;
-  }
+function eliminarItem(objeto) {
+    let idPlato = objeto.dataset.numero
+    let platoEnCarrito = getPlato(carritoDeCompra, idPlato);
+    let indice = carritoDeCompra.indexOf(platoEnCarrito);
+    carritoDeCompra.splice(indice, 1);
+    imprimirCarrito();
+
+    let plato = getPlato(listaPlatos, idPlato);
+    plato.cantidad = 0;
+
+    let elemento = document.querySelector(`[data-numero ="${idPlato}"]`);
+    elemento.querySelector("p").innerHTML = plato.cantidad;
 }
