@@ -183,6 +183,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 .columnaPrecio p {
     color: white;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.columnaTexto p {
+    color: white;
+    font-size: 12px;
+    line-height: 1.5;
 }
 
 .botonEnvio {
@@ -198,7 +206,10 @@ input[type=number]::-webkit-outer-spin-button {
     background: #FAFAFA;
     border-radius: 10px;
     border: none;
+    
 }
+
+
 
 .botonEliminar {
     width: 25px;
