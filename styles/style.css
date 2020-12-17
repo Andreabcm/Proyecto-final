@@ -29,11 +29,10 @@
             line-height: 33px;
             padding-bottom: 2vh;
         }
-
+        
         .logo {
             width: 22vw;
             height: 12vw;
-            
         }
         
         p {
@@ -59,7 +58,6 @@
             display: none;
         }
         
-        
         .cardSlider {
             display: inline-flex;
             flex-direction: column;
@@ -68,7 +66,7 @@
             height: 16vh;
             margin: 1.6vh 1.3vh;
             border-radius: 13px;
-            filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.2) );
+            filter: drop-shadow(0px 5px 7px rgba(0, 0, 0, 0.2));
         }
         
         .cardSlider img {
@@ -228,7 +226,7 @@
             filter: drop-shadow(0px -5px 10px #B4B4B4);
         }
         
-        .botonCarrito{
+        .botonCarrito {
             background: #FF6900;
             width: 8vh;
             height: 8vh;

@@ -1,6 +1,6 @@
 let listaPlatos = [{
         id: 1,
-        imgPLato: "./img/desayuno01.jpg",
+        imgPLato: "./img/platos/desayuno01.jpg",
         precioPlato: 15.00,
         nombrePlato: "Desayuno de la Casa",
         descripcionPlato: "Huevos, pancakes y tocino",
@@ -10,7 +10,7 @@ let listaPlatos = [{
     },
     {
         id: 2,
-        imgPLato: "./img/ensalada01.jpg",
+        imgPLato: "./img/platos/ensalada01.jpg",
         precioPlato: 12.00,
         nombrePlato: "Ensalada César",
         descripcionPlato: "Con salsa ranch",
@@ -19,7 +19,7 @@ let listaPlatos = [{
     },
     {
         id: 3,
-        imgPLato: "./img/macarrones.jpg",
+        imgPLato: "./img/platos/macarrones.jpg",
         precioPlato: 8.00,
         nombrePlato: "Macarrones con queso",
         descripcionPlato: "Queso parmesano",
@@ -28,7 +28,7 @@ let listaPlatos = [{
     },
     {
         id: 4,
-        imgPLato: "./img/Hamburguesa.jpg",
+        imgPLato: "./img/platos/Hamburguesa.jpg",
         precioPlato: 9.00,
         nombrePlato: "Hamburguesa Clásica",
         descripcionPlato: "Con queso cheddar",
@@ -37,7 +37,7 @@ let listaPlatos = [{
     },
     {
         id: 5,
-        imgPLato: "./img/pollo.jpg",
+        imgPLato: "./img/platos/pollo.jpg",
         precioPlato: 8.00,
         nombrePlato: "Pollo Asado",
         descripcionPlato: "Con papas fritas",
@@ -46,7 +46,7 @@ let listaPlatos = [{
     },
     {
         id: 6,
-        imgPLato: "./img/pizza.jpg",
+        imgPLato: "./img/platos/pizza.jpg",
         precioPlato: 5.00,
         nombrePlato: "Pizza Margarita",
         descripcionPlato: "Tomate, mozzarella y albahaca",
@@ -55,7 +55,7 @@ let listaPlatos = [{
     },
     {
         id: 7,
-        imgPLato: "./img/pescado.jpg",
+        imgPLato: "./img/platos/pescado.jpg",
         precioPlato: 20.00,
         nombrePlato: "Pescado a la plancha",
         descripcionPlato: "Pescado de temporada y verduras",
@@ -65,7 +65,7 @@ let listaPlatos = [{
 
     {
         id: 8,
-        imgPLato: "./img/pieLimon.jpg",
+        imgPLato: "./img/platos/pieLimon.jpg",
         precioPlato: 5.00,
         nombrePlato: "Pie de Limón",
         descripcionPlato: "De la casa",
@@ -74,7 +74,7 @@ let listaPlatos = [{
     },
     {
         id: 9,
-        imgPLato: "./img/cheesecake.jpg",
+        imgPLato: "./img/platos/cheesecake.jpg",
         precioPlato: 5.00,
         nombrePlato: "Cheesecake",
         descripcionPlato: "Con frutos rojos",
@@ -84,7 +84,7 @@ let listaPlatos = [{
 
     {
         id: 10,
-        imgPLato: "./img/vinoTinto.jpg",
+        imgPLato: "./img/platos/vinoTinto.jpg",
         precioPlato: 3.50,
         nombrePlato: "Vino Tinto",
         descripcionPlato: "De la casa",
@@ -93,7 +93,7 @@ let listaPlatos = [{
     },
     {
         id: 11,
-        imgPLato: "./img/vinoBlanco.jpg",
+        imgPLato: "./img/platos/vinoBlanco.jpg",
         precioPlato: 3.50,
         nombrePlato: "Vino Blanco",
         descripcionPlato: "De la casa",
@@ -102,7 +102,7 @@ let listaPlatos = [{
     },
     {
         id: 12,
-        imgPLato: "./img/cerveza.jpg",
+        imgPLato: "./img/platos/cerveza.jpg",
         precioPlato: 2.50,
         nombrePlato: "Cerveza",
         descripcionPlato: "De la casa",
