@@ -12,6 +12,10 @@ function suma(objeto) {
     addToCart(objetoPlato);
 
     objeto.parentElement.querySelector("p").innerHTML = objetoPlato.cantidad;
+
+    let elemento = document.querySelector(`[data-numero ="${idPlato}"]`);
+    elemento.querySelector("p").innerHTML = objetoPlato.cantidad;
+    imprimirPrecio(objetoPlato)
 }
 
 function resta(objeto) {
@@ -22,6 +26,10 @@ function resta(objeto) {
         borrarItem(objetoPlato)
 
         objeto.parentElement.querySelector("p").innerHTML = objetoPlato.cantidad;
+        
+        let elemento = document.querySelector(`[data-numero ="${idPlato}"]`);
+        elemento.querySelector("p").innerHTML = objetoPlato.cantidad;
+        imprimirPrecio(objetoPlato)
     }
 }
 

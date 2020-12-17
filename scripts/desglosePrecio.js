@@ -1,11 +1,14 @@
-let precioTotal = [];
-let subTotal = "";
+function imprimirPrecio(itemPlato) {
+      let idPlato = itemPlato.id
+      let objetoPlato = getPlato(carritoDeCompra, idPlato);
 
-function imprimirPrecio() {
-      let i = document.querySelector(".elementosMenu2 .elemento .contador").dataset.numero
-      let subtotal = carritoDeCompra[i].precioPlato * carritoDeCompra[i].cantidad;
-      let tasas = 0.10 * subtotal;
-      let total = subtotal + tasas;
+      for(let i = 0; i <carritoDeCompra.length; i++){
+
+      let subtotal = objetoPlato.precioPlato[0] * objetoPlato.cantidad[0];
+      let tasas = 0.10 * subtotal[0];
+      let total = subtotal[0] + tasas[0];
+      return total;
+      }
 
       document.getElementById("subtotal").innerHTML = subtotal + "&#8364";
       document.getElementById("tasas").innerHTML = tasas.toPrecision(2) + "&#8364";

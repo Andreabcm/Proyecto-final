@@ -17,7 +17,6 @@ function platosImprimir() {
             </div>
         </div>`
     }
-    console.log("hola")
 }
 
 platosImprimir();
