@@ -22,7 +22,6 @@ function paginaSegunda() {
 function cart() {
     cleanBody();
     paginaSegunda();
-
     imprimirCarrito();
     imprimirPrecio();
 }

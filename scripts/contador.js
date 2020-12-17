@@ -15,7 +15,8 @@ function suma(objeto) {
 
     let elemento = document.querySelector(`[data-numero ="${idPlato}"]`);
     elemento.querySelector("p").innerHTML = objetoPlato.cantidad;
-    imprimirPrecio(objetoPlato)
+
+    imprimirPrecio()
 }
 
 function resta(objeto) {
@@ -32,7 +33,7 @@ function resta(objeto) {
         if (objetoPlato.cantidad === 0){
             imprimirCarrito();
         }
-        imprimirPrecio(objetoPlato)
+        imprimirPrecio()
     }
 }
 
@@ -69,4 +70,6 @@ function eliminarItem(objeto) {
 
     let elemento = document.querySelector(`[data-numero ="${idPlato}"]`);
     elemento.querySelector("p").innerHTML = plato.cantidad;
+
+    imprimirPrecio()
 }
