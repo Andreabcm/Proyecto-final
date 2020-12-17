@@ -1,5 +1,5 @@
 const numeroPropietario = 34643423177;
-let pedidoFinal = "Pedido:";
+let pedidoFinal = "Pedido: ";
 let totalFactura = 0;
 
 function imprimirPrecio() {
@@ -26,8 +26,8 @@ function imprimirPrecio() {
 
 function messaggeBuilder() {
       for (let i = 0; i < carritoDeCompra.length; i++){
-            let textopedido = carritoDeCompra[i].nombrePlato +"x(" + carritoDeCompra[i].cantidad + ") --"
+            let textopedido = carritoDeCompra[i].nombrePlato  +  " x (" + carritoDeCompra[i].cantidad + ") --" 
             pedidoFinal += textopedido;
       }
-      pedidoFinal += "Total de factura" + totalFactura;
+      pedidoFinal += "Total de factura: " + totalFactura + "€";
 }
