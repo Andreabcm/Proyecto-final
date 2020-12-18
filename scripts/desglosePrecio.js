@@ -1,4 +1,4 @@
-const numeroPropietario = 34643423177;
+const numeroPropietario = 34675497944;
 let pedidoFinal = "Pedido: ";
 let totalFactura = 0;
 

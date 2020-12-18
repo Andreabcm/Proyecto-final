@@ -1,5 +1,5 @@
-function getPlato(arrayMenu, idPlato) {
-    let plato = arrayMenu.find(function(item) {
+function getPlato(arrayaRecorrer, idPlato) {
+    let plato = arrayaRecorrer.find(function(item) {
         return item.id == idPlato;
     });
     return plato;
