@@ -3,17 +3,17 @@ buscar por el objeto 1 (listaPlatos) el elemento con nombre (nombreCategoria) qu
 luego imprimir el objeto en forma de html
 */
 
-function filtrar(){
-    let catFiltrada = "";
-    for(let i = 0; i < listaPlatos.length; i++){;
-        for(let j = 0; j < listaCategorias.length; j++){
-            if(listaPlatos[i].nombreCategoria === listaCategorias[j].nombreCategoria){
-                catFiltrada.push(listaCategorias)
+function filtrar(objeto){
+    let idPlato = document.querySelector(".elementosMenu1 .contador").dataset.numero
+    let objetoPlato = getPlato(listaPlatos, idPlato);
 
-            }
-               
+    for(let i = 0; i < listaPlatos.length; i++){;
+        if (objetoPlato.nombreCategoria === objeto.id){
+            objetoPlato.splice(idPlato,1)
         }
+        listaPlatos.splice(1,1)
     }
+    platosImprimir()
 }
 
 

@@ -47,9 +47,10 @@ let cardSlider = "";
 
 function categoriasImprimir() {
     for (let i = 0; i < listaCategorias.length; i++) {
-        cardSlider += `<div class="cardSlider" onClick="filtrar()">
-        <img src="${listaCategorias[i].imgCategoria}" alt=" ">
-        <p>${listaCategorias[i].nombreCategoria}</p>
+        cardSlider += `
+        <div id="${listaCategorias[i].nombreCategoria}" class="cardSlider" onClick="filtrar(this)">
+            <img src="${listaCategorias[i].imgCategoria}" alt=" ">
+            <p>${listaCategorias[i].nombreCategoria}</p>
         </div>`
     }
 }
