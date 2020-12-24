@@ -5,7 +5,7 @@ let listaPlatos = [{
         nombrePlato: "Desayuno de la Casa",
         descripcionPlato: "Huevos, pancakes y tocino",
         cantidad: 0,
-        nombreCategoria: "Desayuno",
+        nombreCategoria: "Desayunos",
 
     },
     {
@@ -15,7 +15,7 @@ let listaPlatos = [{
         nombrePlato: "Ensalada César",
         descripcionPlato: "Con salsa ranch",
         cantidad: 0,
-        nombreCategoria: "Ensalada",
+        nombreCategoria: "Ensaladas",
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ let listaPlatos = [{
         nombrePlato: "Macarrones con queso",
         descripcionPlato: "Queso parmesano",
         cantidad: 0,
-        nombreCategoria: "Almuerzo, Cena",
+        nombreCategoria: "Almuerzos, Cena",
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ let listaPlatos = [{
         nombrePlato: "Hamburguesa Clásica",
         descripcionPlato: "Con queso cheddar",
         cantidad: 0,
-        nombreCategoria: "Almuerzo",
+        nombreCategoria: "Almuerzos",
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ let listaPlatos = [{
         nombrePlato: "Pollo Asado",
         descripcionPlato: "Con papas fritas",
         cantidad: 0,
-        nombreCategoria: "Almuerzo",
+        nombreCategoria: "Almuerzos",
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ let listaPlatos = [{
         nombrePlato: "Pizza Margarita",
         descripcionPlato: "Tomate, mozzarella y albahaca",
         cantidad: 0,
-        nombreCategoria: "Almuerzo",
+        nombreCategoria: "Almuerzos",
     },
     {
         id: 7,
